@@ -9,9 +9,7 @@ def _get_env(new_key, *old_keys):
     return ""
 
 
-EVALMM_CACHE_DIR = _os.getenv(
-    "EVALMM_CACHE", _os.path.expanduser("~/.cache/evalmm")
-)
+EVALMM_CACHE_DIR = _os.getenv("EVALMM_CACHE", _os.path.expanduser("~/.cache/evalmm"))
 EVALMM_DATASETS_CACHE_DIR = _os.getenv(
     "EVALMM_DATASETS_CACHE_DIR", _os.path.join(EVALMM_CACHE_DIR, "datasets")
 )
