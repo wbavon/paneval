@@ -1,12 +1,12 @@
 Usage Guide
 ===========
 
-This guide covers the various ways to use FlagEvalMM for multimodal model evaluation.
+This guide covers the various ways to use PanEval for multimodal model evaluation.
 
 Command Line Interface
 ----------------------
 
-FlagEvalMM provides a command-line interface through the ``evalmm`` command.
+PanEval provides a command-line interface through the ``evalmm`` command.
 
 Basic Syntax
 ~~~~~~~~~~~~

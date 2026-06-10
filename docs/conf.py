@@ -18,9 +18,9 @@ sys.path.insert(0, os.path.abspath(".."))
 
 # -- Project information -----------------------------------------------------
 
-project = "FlagEvalMM"
-copyright = "2025, FlagEval Team, BAAI"
-author = "FlagEval Team"
+project = "PanEval"
+copyright = "2025, Eclipse PanEval Contributors"
+author = "Eclipse PanEval"
 release = "0.3.5"
 version = "0.3.5"
 
@@ -68,7 +68,7 @@ html_theme_options = {
     "sidebar_hide_name": True,
     "light_logo": "logo.png",
     "dark_logo": "logo.png",
-    "source_repository": "https://github.com/flageval-baai/FlagEvalMM",
+    "source_repository": "https://github.com/eclipse-paneval/paneval",
     "source_branch": "main",
     "source_directory": "docs/",
     "navigation_with_keys": True,

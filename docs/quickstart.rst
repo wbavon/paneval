@@ -1,7 +1,7 @@
 Quick Start
 ===========
 
-This guide will get you up and running with FlagEvalMM in minutes.
+This guide will get you up and running with PanEval in minutes.
 
 Your First Evaluation
 ----------------------

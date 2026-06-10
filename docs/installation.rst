@@ -1,17 +1,17 @@
 Installation
 ============
 
-This guide will help you install FlagEvalMM and its dependencies.
+This guide will help you install PanEval and its dependencies.
 
 Basic Installation
 ------------------
 
-The easiest way to install FlagEvalMM is from the source repository:
+The easiest way to install PanEval is from the source repository:
 
 .. code-block:: bash
 
-   git clone https://github.com/flageval-baai/FlagEvalMM.git
-   cd FlagEvalMM
+   git clone https://github.com/eclipse-paneval/paneval.git
+   cd PanEval
    pip install -e .
 
 System Requirements
@@ -24,7 +24,7 @@ System Requirements
 Backend Installations
 ---------------------
 
-FlagEvalMM supports multiple backend engines for inference. Choose and install the ones you plan to use:
+PanEval supports multiple backend engines for inference. Choose and install the ones you plan to use:
 
 VLLM Backend
 ~~~~~~~~~~~~
@@ -120,6 +120,6 @@ Getting Help
 
 If you encounter issues during installation:
 
-1. Check the `GitHub Issues <https://github.com/flageval-baai/FlagEvalMM/issues>`_
+1. Check the `GitHub Issues <https://github.com/eclipse-paneval/paneval/issues>`_
 2. Join our community discussions
 3. Contact the development team at flageval@baai.ac.cn 

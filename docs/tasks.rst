@@ -1,7 +1,7 @@
 Add New Tasks
 ====================
 
-FlagEvalMM supports a wide variety of multimodal evaluation tasks and benchmarks.
+PanEval supports a wide variety of multimodal evaluation tasks and benchmarks.
 
 You can create custom tasks by implementing dataset and evaluator classes:
 

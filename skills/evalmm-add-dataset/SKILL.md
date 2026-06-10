@@ -1,18 +1,18 @@
 ---
 name: evalmm-add-dataset
 description: >
-  Integrate new evaluation datasets into FlagEvalMM as benchmark tasks.
-  Use when adding a dataset from HuggingFace or other sources to FlagEvalMM,
+  Integrate new evaluation datasets into PanEval as benchmark tasks.
+  Use when adding a dataset from HuggingFace or other sources to PanEval,
   creating task configs, writing data processors, building custom evaluators,
   setting up prompt templates, or running evaluation benchmarks on VLMs.
-  Trigger on: "add dataset to FlagEvalMM", "create a new task", "integrate benchmark",
+  Trigger on: "add dataset to PanEval", "create a new task", "integrate benchmark",
   "evaluate model on [dataset]", "write process.py", "write evaluator", or any
-  request involving the tasks/ directory of FlagEvalMM.
+  request involving the tasks/ directory of PanEval.
 ---
 
-# FlagEvalMM Dataset Integration
+# PanEval Dataset Integration
 
-Add new evaluation datasets to FlagEvalMM as benchmark tasks. This skill covers the
+Add new evaluation datasets to PanEval as benchmark tasks. This skill covers the
 full workflow: data processing, task configuration, evaluation logic, prompt design,
 and verification.
 
@@ -58,7 +58,7 @@ for k, v in ds[0].items():
 
 ### Step 2: Write process.py
 
-The processor converts raw data into FlagEvalMM's standard `data.json` format.
+The processor converts raw data into PanEval's standard `data.json` format.
 
 **Function signature**: `def process(cfg)` — cfg has attributes: `dataset_path`, `split`,
 `processed_dataset_path`, `processor`, and optionally `dataset_name`, `anno_file`.

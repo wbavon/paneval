@@ -1,12 +1,12 @@
 Configuration
 =============
 
-This guide covers the various configuration options available in FlagEvalMM.
+This guide covers the various configuration options available in PanEval.
 
 Environment Variables
 ---------------------
 
-FlagEvalMM uses several environment variables for configuration:
+PanEval uses several environment variables for configuration:
 
 * ``EVALMM_CACHE_DIR``: Directory for caching (default: ``~/.cache/evalmm``)
 * ``EVALMM_DATASETS_CACHE_DIR``: Directory for dataset caching

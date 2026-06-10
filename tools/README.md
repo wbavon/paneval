@@ -1,6 +1,6 @@
-# FlagEvalMM Tools
+# PanEval Tools
 
-This directory contains utility tools for working with FlagEvalMM.
+This directory contains utility tools for working with PanEval.
 
 ## Batch Model Execution
 
