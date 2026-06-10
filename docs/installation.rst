@@ -122,4 +122,4 @@ If you encounter issues during installation:
 
 1. Check the `GitHub Issues <https://github.com/eclipse-paneval/paneval/issues>`_
 2. Join our community discussions
-3. Contact the development team at flageval@baai.ac.cn 
+3. Contact the development team at paneval-dev@eclipse.org 
