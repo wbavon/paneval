@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="assets/logo.png" width="400" alt="PanEval Logo">
-</p>
+<h1 align="center">PanEval</h1>
 
 <p align="center">
   <strong>A Flexible Framework for Comprehensive Multimodal Model Evaluation</strong>
