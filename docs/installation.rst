@@ -1,17 +1,17 @@
 Installation
 ============
 
-This guide will help you install FlagEvalMM and its dependencies.
+This guide will help you install PanEval and its dependencies.
 
 Basic Installation
 ------------------
 
-The easiest way to install FlagEvalMM is from the source repository:
+The easiest way to install PanEval is from the source repository:
 
 .. code-block:: bash
 
-   git clone https://github.com/flageval-baai/FlagEvalMM.git
-   cd FlagEvalMM
+   git clone https://github.com/eclipse-paneval/paneval.git
+   cd PanEval
    pip install -e .
 
 System Requirements
@@ -24,7 +24,7 @@ System Requirements
 Backend Installations
 ---------------------
 
-FlagEvalMM supports multiple backend engines for inference. Choose and install the ones you plan to use:
+PanEval supports multiple backend engines for inference. Choose and install the ones you plan to use:
 
 VLLM Backend
 ~~~~~~~~~~~~
@@ -87,8 +87,8 @@ If you want to evaluate tasks using GPT models (like charxiv, math_verse, etc.),
 
 .. code-block:: bash
 
-   export FLAGEVAL_API_KEY=$YOUR_OPENAI_API_KEY
-   export FLAGEVAL_BASE_URL="https://api.openai.com/v1"
+   export EVALMM_API_KEY=$YOUR_OPENAI_API_KEY
+   export EVALMM_BASE_URL="https://api.openai.com/v1"
 
 For other API providers, adjust the base URL accordingly.
 
@@ -99,7 +99,7 @@ To verify your installation, run:
 
 .. code-block:: bash
 
-   flagevalmm --help
+   evalmm --help
 
 You should see the help message with available command-line options.
 
@@ -120,6 +120,6 @@ Getting Help
 
 If you encounter issues during installation:
 
-1. Check the `GitHub Issues <https://github.com/flageval-baai/FlagEvalMM/issues>`_
+1. Check the `GitHub Issues <https://github.com/eclipse-paneval/paneval/issues>`_
 2. Join our community discussions
-3. Contact the development team at flageval@baai.ac.cn 
+3. Contact the development team at paneval-dev@eclipse.org 

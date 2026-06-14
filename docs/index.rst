@@ -1,14 +1,14 @@
-FlagEvalMM Documentation
+PanEval Documentation
 ========================
 
 .. image:: ../assets/logo.png
-   :alt: FlagEvalMM Logo
+   :alt: PanEval Logo
    :align: center
    :width: 400px
 
 .. centered:: **A Flexible Framework for Comprehensive Multimodal Model Evaluation**
 
-FlagEvalMM is an open-source evaluation framework designed to comprehensively assess multimodal models. 
+PanEval is an open-source evaluation framework designed to comprehensively assess multimodal models. 
 It provides a standardized way to evaluate models that work with multiple modalities (text, images, video) 
 across various tasks and metrics.
 
@@ -32,7 +32,7 @@ across various tasks and metrics.
    :maxdepth: 2
    :caption: API Reference
 
-   api/flagevalmm
+   api/evalmm
    api/models
    api/evaluator
    api/dataset
@@ -42,7 +42,7 @@ across various tasks and metrics.
    :maxdepth: 1
    :caption: Additional Information
 
-   GitHub Repository <https://github.com/flageval-baai/FlagEvalMM>
+   GitHub Repository <https://github.com/eclipse-paneval/paneval>
 
 Key Features
 ------------
@@ -55,19 +55,19 @@ Key Features
 Quick Start
 -----------
 
-Install FlagEvalMM:
+Install PanEval:
 
 .. code-block:: bash
 
-   git clone https://github.com/flageval-baai/FlagEvalMM.git
-   cd FlagEvalMM
+   git clone https://github.com/eclipse-paneval/paneval.git
+   cd PanEval
    pip install -e .
 
 Run a basic evaluation:
 
 .. code-block:: bash
 
-   flagevalmm --tasks tasks/mmmu/mmmu_val.py \
+   evalmm --tasks tasks/mmmu/mmmu_val.py \
            --exec model_zoo/vlm/api_model/model_adapter.py \
            --model llava-hf/llava-onevision-qwen2-7b-ov-chat-hf \
            --num-workers 8 \

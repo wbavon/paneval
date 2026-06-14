@@ -1,7 +1,7 @@
 Tools and Utilities
 ===================
 
-This section covers the utility tools provided with FlagEvalMM to enhance your evaluation workflow.
+This section covers the utility tools provided with PanEval to enhance your evaluation workflow.
 
 Batch Model Execution
 ----------------------

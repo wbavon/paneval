@@ -1,6 +1,6 @@
 # Animal-Bench Task Integration
 
-This task integrates the Animal-Bench dataset into FlagEvalMM framework.
+This task integrates the Animal-Bench dataset into PanEval framework.
 
 ## Files
 
